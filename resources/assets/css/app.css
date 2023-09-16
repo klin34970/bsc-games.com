@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sand-400: #f9d37fff;
+    --sand-800: #f7c866ff;
+    --tree-300: #c17508ff;
+    --tree-600: #b17520ff;
+    --tree-900: #a15f07ff;
+    --leaf-400: #59960bff;
+    --leaf-800: #457206ff;
+    --sky-400: #9bf2f5ff;
+    --sky-800: #b5ffffff;
+    --sun: #ffbc00ff;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: url('../images/decors/pattern.png');
+}
+
+.saber svg{
+    transform-origin: bottom;
+    transition: 1s;
+}
+.saber-focus-animation{
+    transform: rotate(15deg);
+}
+
+.porthole{
+    transition: 1.5s;
+}
+.porthole-focus-animation{
+    transform: rotateY(360deg);
+}

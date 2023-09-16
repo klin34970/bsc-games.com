@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6431149c-6d1a-4062-8abd-29cdadf6ae78" name="production" url="https://bsc-games.com/">
+        <fileTransfer rootFolder="/home/bsc-games/public_html" accessType="SFTP" host="devsapps.com" port="22" sshConfigId="9057ed38-98db-4e0f-bd00-cce08fecf8a0" sshConfig="bsc-games@devsapps.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
